@@ -1,0 +1,10 @@
+{
+  "name": "goal-planner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "理財目標導航：以 PV、FV、PMT 分析理財目標並提供行動建議",
+  "scripts": {
+    "dev": "npx wrangler pages dev ./public",
+    "deploy": "npx wrangler pages deploy ./public --project-name goal-planner"
+  }
+}
